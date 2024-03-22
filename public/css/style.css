@@ -1,0 +1,65 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.input-container{
+    margin-top: 15px;
+}
+h1{
+text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 5px;
+    font-style: inherit;
+    
+}
+.quenmatkhau{
+    margin-top: 40px;
+  text-align: center;
+}
+.ten{
+border-radius: 5px;
+width: 90%;
+height: 30px;
+margin: 5px;
+}
+.content {
+ 
+    width: 500px; /* Độ rộng của nội dung */
+    height: 400px;
+    padding: 20px; /* Khoảng cách từ nội dung đến lề của ô vuông */
+    border: 2px solid #ccc; /* Đường viền của ô vuông */
+    border-radius: 10px; /* Bo góc của ô vuông */
+    margin: 5px;
+}
+.navbar {
+    text-align: center; 
+    background-color: black;
+    padding: 10px; /* Khoảng cách nội dung và viền của navbar */
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ 
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    background-color: #333; /* Màu nền khi di chuột qua */
+}
+
