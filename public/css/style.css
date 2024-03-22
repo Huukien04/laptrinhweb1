@@ -13,11 +13,14 @@ text-align: center;
     justify-content: center;
     align-items: center;
     height: 100%;
-    margin: 5px;
-    font-style: inherit;
+   
     
 }
 .quenmatkhau{
+    margin-top: 40px;
+  text-align: center;
+}
+.dangky{
     margin-top: 40px;
   text-align: center;
 }
@@ -27,7 +30,7 @@ width: 90%;
 height: 30px;
 margin: 5px;
 }
-.content {
+.content{
  
     width: 500px; /* Độ rộng của nội dung */
     height: 400px;
@@ -35,6 +38,15 @@ margin: 5px;
     border: 2px solid #ccc; /* Đường viền của ô vuông */
     border-radius: 10px; /* Bo góc của ô vuông */
     margin: 5px;
+}
+.content1{
+ 
+    width: 500px; /* Độ rộng của nội dung */
+    height: 600px;
+    padding: 20px; /* Khoảng cách từ nội dung đến lề của ô vuông */
+    border: 2px solid #ccc; /* Đường viền của ô vuông */
+    border-radius: 10px; /* Bo góc của ô vuông */
+   
 }
 .navbar {
     text-align: center; 
@@ -62,4 +74,103 @@ margin: 5px;
 .navbar a:hover {
     background-color: #333; /* Màu nền khi di chuột qua */
 }
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: calc(100% - 20px);
+    height: 30px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+button[type="submit"] {
+    width: calc(50% - 50px);
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #333;
+}
+
+
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #333;
+    color: #fff;
+}
+
+.pagination a:hover {
+    background-color: #ddd;
+}
+
+
+
+
+
+
+
+
+
+.container {
+    position: relative;
+}
+
+.edit-button {
+    position: absolute;
+    bottom: 250px;
+    right: 250px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-button:hover {
+    background-color: #0056b3;
+}
+
 
